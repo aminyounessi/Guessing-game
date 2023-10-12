@@ -7,7 +7,7 @@ public class Guessinggame {
 		String answer = "Emma";
         int numberOfGuesses = 0;
         while (true) {
-          
+          //Print the "Guess my name" to the screen to let user guessing it's name
             System.out.println("Guess my name (type stop to exit)");
             String guess = scanner.nextLine();
                     numberOfGuesses++;
