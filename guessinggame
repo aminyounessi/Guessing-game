@@ -11,10 +11,10 @@ public class Guessinggame {
             System.out.println("Guess my name (type stop to exit)");
             String guess = scanner.nextLine();
                     numberOfGuesses++;
-                   
+                   //Create an "if" to check if the user's answer is correct or wrong
                     if (guess.equals(answer)) {
                         System.out.println("Congratulations!");
-                       
+                      //"break" is used to terminate the statement 
                         break;
                     } else if (guess.equals("stop")) {
                         numberOfGuesses--;
