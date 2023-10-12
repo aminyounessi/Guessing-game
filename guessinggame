@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Guessinggame {
 	public static void main(String[] args) {
-   
+   //Create a scanner to receive user input and parse them into primitive data types
 		Scanner scanner = new Scanner(System.in);
 		String answer = "Emma";
         int numberOfGuesses = 0;
